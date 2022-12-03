@@ -10,7 +10,7 @@ It allows an attacker to view data that they are not normally able to retrieve
 - " SELECT * FROM information_schema.tables  " → to list tables in the database
 - 
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled.png)
+![Untitled] https://drive.google.com/file/d/1X-l6IUxXVmrlVZ-U6wh-zSC5twdGcFv8/view?usp=sharing
 
 ## Impact
 
