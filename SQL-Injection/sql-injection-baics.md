@@ -23,7 +23,7 @@ RCE to operating system
 
 ## Type of SQL Injections
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled%201.png)
+![Untitled] (https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/SQL-Injection/images/Untitled%201.png)
 
 ## In-band SQLi (Classic SQLi)
 
