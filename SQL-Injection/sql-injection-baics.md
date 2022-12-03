@@ -9,8 +9,8 @@ It allows an attacker to view data that they are not normally able to retrieve
 - " SELECT * FROM v$version " → shows database version in Oracle
 - " SELECT * FROM information_schema.tables  " → to list tables in the database
 - 
+![Untitled](https://user-images.githubusercontent.com/87711310/205446962-457c75dc-7b49-49a4-9eae-c18825a25bfa.png)
 
-![Untitled] https://drive.google.com/file/d/1X-l6IUxXVmrlVZ-U6wh-zSC5twdGcFv8/view?usp=sharing
 
 ## Impact
 
@@ -23,7 +23,7 @@ RCE to operating system
 
 ## Type of SQL Injections
 
-![Untitled] (https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/SQL-Injection/images/Untitled%201.png?raw=true)
+![Untitled 1](https://user-images.githubusercontent.com/87711310/205446983-20f0c2a3-ee95-403f-8fe7-2fbc299ad4e3.png)
 
 ## In-band SQLi (Classic SQLi)
 
@@ -38,13 +38,13 @@ Same communication channel is used for the attack and the result of attack
 - relies on error messages thrown by the database server to obtain information about the structure of the database
 - Sometimes, error-based SQL injection alone is enough for an attacker to enumerate an entire database.
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/87711310/205447004-2a15a713-27e6-4029-9c1a-8d23b92b9e2e.png)
 
 ### 2. Union-based SQLi
 
 - leverages the UNION SQL operator to combine the results of two or more SELECT statements into a single result which is then returned as part of the HTTP response.
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/87711310/205447005-75d8b05f-b173-48f0-9602-a6511486f3fe.png)
 
 ## Inferential (Blind)
 
@@ -56,7 +56,7 @@ Same communication channel is used for the attack and the result of attack
 
 - relies on sending an SQL query to the database which forces the application to return a different result depending on whether the query returns a TRUE or FALSE result
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/87711310/205447011-c8e1fd45-5e00-4b68-9db4-7c35ad068099.png)
 
 - Extract information from database
 
@@ -83,7 +83,7 @@ seconds.
 - Not common
 - DNS, HTTP protocol used.
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/87711310/205447180-6c05b902-8271-46e5-8781-a5856971aedc.png)
 
 ## **HOW TO FIND SQLI VULNERABILITIES?**
 
@@ -136,27 +136,28 @@ the database
 
 - Determining the number of columns required in an SQL injection **UNION** attack using **ORDER BY**:
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/87711310/205447184-99eaf92f-dea0-452e-a2cc-102db3c32a9b.png)
 
 • Incrementally inject a series of ORDER BY clauses until you get an error or observe a
 different behaviour in the application
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/87711310/205447227-f5607657-dc6b-470e-a456-dfb539331282.png)
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled%208.png)
+
+![Untitled 8](https://user-images.githubusercontent.com/87711310/205447231-a67c5ede-9e06-4e17-9a24-867edbbe6019.png)
 
 - Determining the number of columns required in an SQL injection UNION attack using **NULL VALUES**:
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/87711310/205447266-bae4c0df-6b5f-46d1-9ef9-4ff68abae10f.png)
 
 - Incrementally inject a series of UNION SELECT payloads specifying a different number of null  values until you no longer get an error
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/87711310/205447270-f688a481-2fa6-4e7d-a9c7-c5f9e3d351ac.png)
 
 - Finding columns with a useful data type in an SQL injection UNION attack:
  • Probe each column to test whether it can hold string data by submitting a series of UNION SELECT payloads that place a string value into each column in turn
 
-![Untitled](SQL%20Injection(SQLi)%2062d95bf98e564611b0846ece5df951ca/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/87711310/205447272-aff048b0-aa80-40c1-8131-6927e01b9712.png)
 
 - There are two rules for combining the result sets of two queries by using UNION:
    • The number and the order of the columns must be the same in all queries
