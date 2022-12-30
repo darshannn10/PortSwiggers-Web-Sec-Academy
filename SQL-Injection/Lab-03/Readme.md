@@ -15,8 +15,12 @@ To solve the lab, determine the `number of columns` returned by the query by per
 > Scripting the Attack: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/SQL-Injection/Lab-03/sqli-lab-03.py)
 
 ## Payload:
-Normal: `' UNION SELECT NULL,NULL,NULL--`
+Normal: 
 
+1. `' UNION SELECT NULL,NULL,NULL--`
+
+2. `' ORDER BY 3--`
+        
 URL-Encoded: `%27+UNION+SELECT+NULL,NULL,NULL--`
 
 ## Video Solution
