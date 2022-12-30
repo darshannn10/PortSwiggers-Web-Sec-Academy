@@ -10,6 +10,7 @@ Victim's username: `carlos`
 [Candidate passwords](https://portswigger.net/web-security/authentication/auth-lab-passwords)
 
 # Solution
+> Manual Exploitation
 1. With Burp running, log in to your own account with the *Stay logged in* option selected. Notice that this sets a `stay-logged-in` cookie.
 2. Examine this cookie in the Inspector panel and notice that it is `Base64-encoded`. Its decoded value is `wiener:51dc30ddc473d43a6011e9ebba6ca770`. Study the length and character set of this string and notice that it could be an `MD5` hash. Given that the plaintext is your username, you can make an educated guess that this may be a hash of your password. Hash your password using MD5 to confirm that this is the case. We now know that the cookie is constructed as follows: `base64(username+':'+md5HashOfPassword)`
 3. Log out of your account.
@@ -25,3 +26,5 @@ Victim's username: `carlos`
 - Remove your own password from the payload list and add the list of [candidate passwords](https://portswigger.net/web-security/authentication/auth-lab-passwords) instead.
 - Change the Add prefix rule to add `carlos:` instead of `wiener:`.
 10. When the attack is finished, the lab will be solved. Notice that only one request returned a response containing `Update email`. The payload from this request is the valid `stay-logged-in` cookie for Carlos's account.
+
+> Automating the attack: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/Authentication/lab-09/auth-lab-09.py)
