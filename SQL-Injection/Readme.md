@@ -8,7 +8,7 @@ It allows an attacker to view data that they are not normally able to retrieve
 
 - " SELECT * FROM v$version " → shows database version in Oracle
 - " SELECT * FROM information_schema.tables  " → to list tables in the database
-- 
+
 ![Untitled](https://user-images.githubusercontent.com/87711310/205446962-457c75dc-7b49-49a4-9eae-c18825a25bfa.png)
 
 
