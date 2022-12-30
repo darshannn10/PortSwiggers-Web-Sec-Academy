@@ -15,7 +15,7 @@ To solve the lab, retrieve the contents of the /etc/passwd file.
 ```
 3. Observe that the response contains the contents of the `/etc/passwd` file.
 
-> Automating the process: [Script]()
+> Automating the process: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/Directory%20Traversal/lab-05/lab-05-script.py)
 
 # Video Solution
 [Sommer's YT Playlist](https://youtu.be/9ym9W88oS7w)
