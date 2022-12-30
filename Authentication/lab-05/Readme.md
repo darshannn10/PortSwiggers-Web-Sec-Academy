@@ -23,7 +23,7 @@ Your credentials: `wiener:peter`
 12. When the attack is finished, find the response with a 302 status. Make a note of this password.
 13. Log in using the username and password that you identified and access the user account page to solve the lab.
 
-> Automating the attack: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/main/Authentication/lab-05/auth-lab-05.py)
+> Automating the attack: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/Authentication/lab-05/auth-lab-05.py)
 
 # Video Solution
 [Sommer's YT Video](https://youtu.be/RO5Wo5jjbWE)
