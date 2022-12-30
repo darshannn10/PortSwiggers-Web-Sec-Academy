@@ -10,11 +10,13 @@ To solve the lab, determine the `number of columns` returned by the query by per
 2. Modify the `category` parameter, giving it the value `'+UNION+SELECT+NULL--`. Observe that an error occurs.\
 3. Modify the `category` parameter to add an additional column containing a null value: ```'+UNION+SELECT+NULL,NULL--```
 4. Continue adding null values until the error disappears and the response includes additional content containing the null values.
+5. Alternatively, you can also use `ORDER BY` clause
 
 > Scripting the Attack: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/SQL-Injection/Lab-03/sqli-lab-03.py)
 
 ## Payload:
 Normal: `' UNION SELECT NULL,NULL,NULL--`
+
 URL-Encoded: `%27+UNION+SELECT+NULL,NULL,NULL--`
 
 ## Video Solution
