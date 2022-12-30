@@ -30,7 +30,7 @@ To solve the lab, log in as the administrator user.
 18. Continue this process testing offset 3, 4, and so on, until you have the whole password.
 19. In the browser, click "My account" to open the login page. Use the password to log in as the `administrator` user.
 
-> Automating the attack: [Script]()
+> Automating the attack: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/SQL-Injection/lab-11/sqli-lab-11.py)
 ## Video Soolution
 1. Manual: [Rana Khalil's Youtube Video](https://youtu.be/LBG_n9fr8sM)
 2. Scripting the attack: [Rana Khalil's Youtube Video](https://www.youtube.com/watch?v=5brORHQSJMc&list=PLuyTk2_mYISLaZC4fVqDuW_hOk0dd5rlf&index=12)
