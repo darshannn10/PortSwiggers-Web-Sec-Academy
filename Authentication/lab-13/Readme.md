@@ -24,7 +24,7 @@ Victim's username: `carlos`
 4. Right-click on this request and select `Show response in browser`. Copy the URL and load it in the browser. The page loads and you are logged in as `carlos`.
 5. Click `My account` to access Carlos's account page and solve the lab.
 
-> Automating the attack: [Script]()
+> Automating the attack: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/Authentication/lab-13/auth-lab-13.py)
 
 # Video Solution
 [Summer's YT Video](https://youtu.be/EuLhoEv3XYk)
