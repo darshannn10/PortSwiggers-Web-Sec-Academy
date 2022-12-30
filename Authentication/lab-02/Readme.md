@@ -13,7 +13,7 @@ Victim's credentials `carlos:montoya`
 4. Log in using the victim's credentials.
 5. When prompted for the verification code, manually change the URL to navigate to `/my-account`. The lab is solved when the page loads.
 
-> Automating the Attack: [Script]()
+> Automating the Attack: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/Authentication/lab-02/auth-lab-02.py)
 
 ## Video Solution
 [Sommer's YT video](https://youtu.be/V-Ak7kiOQI4)
