@@ -12,13 +12,16 @@
 
 select tracking-id from tracking-table where trackingId = 'RvLfBu6s9EZRlVYN'
 
--> If this tracking id `exists` -> query returns value -> Welcome back message
+-> If this tracking id `exists` -> query returns value -> Welcome back message.
+
 -> If the tracking id `doesn't exist` -> query returns nothing -> no Welcome back message
 
 select tracking-id from tracking-table where trackingId = `'RvLfBu6s9EZRlVYN' and 1=1--'`
+
 -> TRUE -> Welcome back
 
 select tracking-id from tracking-table where trackingId = `'RvLfBu6s9EZRlVYN' and 1=0--'`
+
 -> FALSE -> no Welcome back
 
 2) Confirm that we have a users table
