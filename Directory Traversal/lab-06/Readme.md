@@ -13,7 +13,7 @@ To solve the lab, retrieve the contents of the `/etc/passwd` file.
 ../../../etc/passwd%00.png
 ```
 3. Observe that the response contains the contents of the /etc/passwd file.
-> Automating the process: [Script]()
+> Automating the process: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/Directory%20Traversal/lab-06/lab-06-script.py)
 
 # Video Solution
 [Summer's YT video](https://youtu.be/vFkrWxsWnoY)
