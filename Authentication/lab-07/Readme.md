@@ -3,6 +3,7 @@
 This lab is vulnerable to username enumeration. It uses account locking, but this contains a logic flaw. To solve the lab, enumerate a valid username, brute-force this user's password, then access their account page.
 
 [Candidate usernames](https://portswigger.net/web-security/authentication/auth-lab-usernames)
+
 [Candidate passwords](https://portswigger.net/web-security/authentication/auth-lab-passwords)
 
 # Solution
