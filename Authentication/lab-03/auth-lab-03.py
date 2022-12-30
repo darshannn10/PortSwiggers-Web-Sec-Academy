@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Password reset broken logic
 # Lab-Link: https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic
-# Difficulty: APPRENTICE
+
 from bs4 import BeautifulSoup
 import requests
 import sys
