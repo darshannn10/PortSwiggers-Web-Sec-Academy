@@ -18,7 +18,7 @@ Victim's username: `carlos`
 7. When the attack finishes, filter the results to hide responses with a `200` status code. Sort the remaining results by username. There should only be a single 302 response for requests with the username carlos. Make a note of the password from the Payload 2 column.
 8. Log in to Carlos's account using the password that you identified and access his account page to solve the lab.
 
-> Automating the Attack: [Script]()
+> Automating the Attack: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/Authentication/lab-06/auth-lab-06.py)
 
 ## Video Solution:
 [Sommer's YT video](https://youtu.be/n1Nib1IwxuE)
