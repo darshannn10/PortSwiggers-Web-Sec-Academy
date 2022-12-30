@@ -13,7 +13,7 @@ To solve the lab, exploit the SQL injection vulnerability to cause a 10 second d
 3. Submit the request and observe that the application takes 10 seconds to respond.
 > Automating the Attack: 
 > 
-## Video Solution: [Scirpt]()
+## Video Solution: [Scirpt](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/SQL-Injection/lab-13/sqli-lab-13.py)
 
 1. Manual: [Rana Khalil's Youtube Video](https://youtu.be/9l49BmQQVsw)
 
