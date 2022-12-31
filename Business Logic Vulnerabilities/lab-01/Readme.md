@@ -11,7 +11,7 @@ You can log in to your own account using the following credentials: `wiener:pete
 4. Repeat this process to set the price to any amount less than your available store credit.
 5. Complete the order to solve the lab.
 
-> Automating the process: [Script]()
+> Automating the process: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/Business%20Logic%20Vulnerabilities/lab-01/lab-01-script.py)
 
 ## Video Solution
 [Sommer's YT Video](https://youtu.be/DqhZ9cDfEBw)
