@@ -25,4 +25,5 @@ GET /files/avatars/exploit.php HTTP/1.1
 
 > Automating the process: 
 - [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/File%20Upload%20Vulnerabilities/lab-01/lab-01-script.py)
+
 -[Shell](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/File%20Upload%20Vulnerabilities/lab-01/lab-01-shell.py)
