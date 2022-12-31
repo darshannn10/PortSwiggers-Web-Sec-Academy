@@ -1,4 +1,4 @@
-# Lab: User role controlled by request parameter
+# Lab 3: User role controlled by request parameter
 
 This lab has an admin panel at /admin, which identifies administrators using a forgeable cookie.
 
