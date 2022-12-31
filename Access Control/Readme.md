@@ -1,5 +1,8 @@
 # Access Control
 
+![access-control](https://user-images.githubusercontent.com/87711310/210135886-3c11468e-dd98-4fb0-abc3-cd9196684a1e.svg)
+
+
 ## What is access control?
 Access control (or authorization) is the application of constraints on who (or what) can perform attempted actions or access resources that they have requested. In the context of web applications, access control is dependent on authentication and session management:
 
