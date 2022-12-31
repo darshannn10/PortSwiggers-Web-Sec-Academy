@@ -53,7 +53,7 @@ Information disclosure vulnerabilities can have both a direct and indirect impac
 
 On the other hand, leaking technical information, such as the directory structure or which third-party frameworks are being used, may have little to no direct impact. However, in the wrong hands, this could be the key information required to construct any number of other exploits. The severity in this case depends on what the attacker is able to do with this information.
 
-## Prevent
+## Prevention
 
 - Ensure all members of the service team know what information is and isn't considered sensitive so that it can be treated consistenly.
 - Keep error messages generic and devoid of technical details.
