@@ -1,3 +1,8 @@
+# Lab 10: Infinite money logic flaw
+This lab has a logic flaw in its purchasing workflow. To solve the lab, exploit this flaw to buy a "Lightweight l33t leather jacket".
+
+You can log in to your own account using the following credentials: `wiener:peter`
+
 ## Solution
 > Manual Exploitation
 1. This solution uses Burp Intruder to automate the process of buying and redeeming gift cards. Users proficient in Python might prefer to use the Turbo Intruder extension instead.
@@ -28,7 +33,7 @@ Then, click "OK". The Macro Editor opens.
 15. When the attack finishes, you will have enough store credit to buy the jacket and solve the lab.
 
 
-> Automating the process: [Script]()
+> Automating the process: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/Business%20Logic%20Vulnerabilities/lab-10/lab-10-script.py)
 
 ## Video Solution
 [Sommer's YT Video](https://youtu.be/3pqYcbnAHtY)
