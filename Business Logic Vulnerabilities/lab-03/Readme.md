@@ -1,4 +1,4 @@
-# Lab: Inconsistent security controls
+# Lab 3: Inconsistent security controls
 This lab's flawed logic allows arbitrary users to access administrative functionality that should only be available to company employees. To solve the lab, access the admin panel and delete Carlos.
 
 ## Solution
