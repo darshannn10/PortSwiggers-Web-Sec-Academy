@@ -23,4 +23,6 @@ GET /files/avatars/exploit.php HTTP/1.1
 8. Send the request. Notice that the server has executed your script and returned its output (Carlos's secret) in the response.
 9. Submit the secret to solve the lab.
 
-> Automating the process: [Script]()
+> Automating the process: 
+- [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/File%20Upload%20Vulnerabilities/lab-01/lab-01-script.py)
+-[Shell](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/File%20Upload%20Vulnerabilities/lab-01/lab-01-shell.py)
