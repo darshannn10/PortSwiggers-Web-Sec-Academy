@@ -1,4 +1,4 @@
-# Lab: High-level logic vulnerability
+# Lab 2: High-level logic vulnerability
 
 This lab doesn't adequately validate user input. You can exploit a logic flaw in its purchasing workflow to buy items for an unintended price. To solve the lab, buy a "Lightweight l33t leather jacket".
 
@@ -18,4 +18,4 @@ You can log in to your own account using the following credentials:  `wiener:pet
 > Automating the process: [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/Business%20Logic%20Vulnerabilities/lab-02/lab-02-script.py)
 
 ## Video Solution
-[Sommer's YT Video]()
+[Sommer's YT Video](https://youtu.be/FxJrvNJsi48)
