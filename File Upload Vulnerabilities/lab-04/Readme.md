@@ -5,6 +5,7 @@ To solve the lab, upload a basic PHP web shell, then use it to exfiltrate the co
 
 You can log in to your own account using the following credentials: `wiener:peter`
 
+## Solution
 > Manual Exploitation
 1. Log in and upload an image as your avatar, then go back to your account page.
 2. In Burp, go to *Proxy > HTTP history* and notice that your image was fetched using a GET request to `/files/avatars/<YOUR-IMAGE>`. Send this request to Burp Repeater.
