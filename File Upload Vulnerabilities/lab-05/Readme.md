@@ -23,6 +23,6 @@ filename="exploit.php%00.jpg"
 9. Submit the secret to solve the lab.
 
 > Automating the process
-- [Script]()
-- [Shell]()
+- [Script](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/File%20Upload%20Vulnerabilities/lab-05/lab-05-script.py)
+- [Shell](https://github.com/darshannn10/PortSwiggers-Web-Sec-Academy/blob/main/File%20Upload%20Vulnerabilities/lab-05/lab-05-shell.py)
 
