@@ -46,7 +46,7 @@ Most XXE attacks are caused by XML external entities.
 ```
 - `Blind XXE to retrieve data via error messages`: attacker triggers an XML parsing error that leaks sensitive data.
 
-:bulb: When testing for XXE vulnerabilities, you will often need to test each node of the XML document to see if it is vulnerable.
+- When testing for XXE vulnerabilities, you will often need to test each node of the XML document to see if it is vulnerable.
 
 ### Retrieve file contents
 
