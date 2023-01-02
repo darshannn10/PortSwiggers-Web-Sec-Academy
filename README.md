@@ -17,3 +17,21 @@ This repo contains my write-ups and scripts for solving the [PortSwigger WebSecu
 10. [XML external entity (XXE) injection](XXE%20Injection)
 
 
+## License
+
+The content of this repo are study notes based on PortSwigger's [Web Security Academy](https://portswigger.net/web-security).  They hold all rights to any content that is not my own.
+
+## Setup
+```sh
+# Install Homebrew, VirtualBox, Vagrant and create a Kali VM
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
+brew bundle
+vagrant up
+```
+
+Optionally, configure Chromium to trust the Burp CA certificate:
+
+1. In the VM, open Burp's integrated Chromium browser.
+2. Go to `http://burpsuite` and download the `cacert.der` certificate.
+3. Go to `chrome://settings/certificates` and select `Authorities`.
+4. Click `Import`, select `cacert.der`, and trust for web identies.
