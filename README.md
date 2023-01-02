@@ -11,7 +11,7 @@ This repo contains my write-ups and scripts for solving the [PortSwigger WebSecu
 4. [Command injection](command-injection/README.md)
 5. [Business logic vulnerabilities](business-logic-vulnerabilities/README.md)
 6. [Information disclosure](information-disclosure/README.md)
-7. [Access control](Access%20Control/Readme.md)
+7. [Access control](Access%20Control/)
 8. [File upload vulnerabilities](file-upload-vulnerabilities/README.md)
 9. [Server-side request forgery (SSRF)](server-side-request-forgery/README.md)
 10. [XML external entity (XXE) injection](xml-external-entity-injection/README.md)
