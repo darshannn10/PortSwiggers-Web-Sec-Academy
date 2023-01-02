@@ -5,15 +5,15 @@ This repo contains my write-ups and scripts for solving the [PortSwigger WebSecu
 ## Topics
 
 ### Server-side
-1. [SQL injection](sql-injection/README.md)
-2. [Authentication](authentication/README.md)
-3. [Directory traversal](directory-traversal/README.md)
-4. [Command injection](command-injection/README.md)
-5. [Business logic vulnerabilities](business-logic-vulnerabilities/README.md)
-6. [Information disclosure](information-disclosure/README.md)
+1. [SQL injection](SQL-Injection/)
+2. [Authentication](Authentication/)
+3. [Directory traversal](Directory%20Traversal/)
+4. [Command injection](OS%20Command%20Injection/)
+5. [Business logic vulnerabilities](Business%20Logic%20Vulnerabilities/)
+6. [Information disclosure](Information%20Disclosure)
 7. [Access control](Access%20Control/)
-8. [File upload vulnerabilities](file-upload-vulnerabilities/README.md)
-9. [Server-side request forgery (SSRF)](server-side-request-forgery/README.md)
-10. [XML external entity (XXE) injection](xml-external-entity-injection/README.md)
+8. [File upload vulnerabilities](File%20Upload%20Vulnerabilities/)
+9. [Server-side request forgery (SSRF)](Server-Side%20Request%20Forgery/)
+10. [XML external entity (XXE) injection](XXE%20Injection)
 
 
